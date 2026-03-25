@@ -884,6 +884,115 @@
     "macos": {
       "apps": [
         {
+          "name": "RabbitHole",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "fa": "نصب برنامه",
+                "fr": "Installation de l'application",
+                "ru": "Установка приложения",
+                "zh": "应用安装"
+              },
+              "buttons": [
+                {
+                  "link": "https://apps.apple.com/app/rabbithole-vpn-client/id6683309629",
+                  "text": {
+                    "en": "App Store",
+                    "fa": "اپ استور",
+                    "fr": "App Store",
+                    "ru": "App Store",
+                    "zh": "App Store"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "DownloadIcon",
+              "description": {
+                "en": "Download and install the app from the App Store.",
+                "fa": "برنامه را از App Store دانلود و نصب کنید.",
+                "fr": "Télécharge et installe l'application depuis l'App Store.",
+                "ru": "Скачайте и установите приложение из App Store.",
+                "zh": "从 App Store 下载并安装应用。"
+              },
+              "svgIconColor": "violet"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "fa": "اضافه کردن اشتراک",
+                "fr": "Ajouter une souscription",
+                "ru": "Добавление подписки",
+                "zh": "添加订阅"
+              },
+              "buttons": [
+                {
+                  "link": "rabbithole://add/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "fa": "اضافه کردن اشتراک",
+                    "fr": "Ajouter une souscription",
+                    "ru": "Добавить подписку",
+                    "zh": "添加订阅"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Click the button below — the app will open and the subscription config will be imported automatically. The config will not be visible until the VPN profile is added to the system.",
+                "fa": "روی دکمه زیر کلیک کنید — برنامه باز می‌شود و پیکربندی اشتراک به طور خودکار وارد می‌شود. تا زمانی که پروفایل VPN به سیستم اضافه نشود، پیکربندی قابل مشاهده نخواهد بود.",
+                "fr": "Clique sur le bouton ci‑dessous — l'app s'ouvrira et la configuration sera importée automatiquement. La configuration ne sera pas visible tant que le profil VPN n'aura pas été ajouté au système.",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и конфигурация подписки импортируется автоматически. Конфиг не будет виден до тех пор, пока профиль VPN не добавится в систему.",
+                "zh": "点击下方按钮，应用将打开并自动导入订阅配置。在 VPN 配置文件添加到系统之前，配置将不可见。"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Add VPN Configuration",
+                "fa": "افزودن پیکربندی VPN",
+                "fr": "Ajouter la configuration VPN",
+                "ru": "Добавление конфигурации VPN",
+                "zh": "添加 VPN 配置"
+              },
+              "buttons": [],
+              "svgIconKey": "ShieldPlus",
+              "description": {
+                "en": "In the app, click the Add VPN Configuration button. In the permission window that appears, click Allow to let the app add a VPN profile to your system.",
+                "fa": "در برنامه، روی دکمه افزودن پیکربندی VPN کلیک کنید. در پنجره مجوزی که ظاهر می‌شود، روی Allow کلیک کنید تا برنامه بتواند پروفایل VPN را به سیستم شما اضافه کند.",
+                "fr": "Dans l'app, clique sur le bouton Ajouter la configuration VPN. Dans la fenêtre d'autorisation qui apparaît, clique sur « Autoriser » pour permettre à l'app d'ajouter un profil VPN à ton système.",
+                "ru": "В приложении нажмите кнопку Добавить конфигурацию VPN. В появившемся окне разрешения нажмите Разрешить, чтобы приложение могло добавить VPN-профиль в систему.",
+                "zh": "在应用中，点击\"添加 VPN 配置\"按钮。在弹出的权限窗口中，点击\"允许\"以让应用将 VPN 配置文件添加到您的系统。"
+              },
+              "svgIconColor": "orange"
+            },
+            {
+              "title": {
+                "en": "Connect and use",
+                "fa": "متصل شوید و استفاده کنید",
+                "fr": "Se connecter et utiliser",
+                "ru": "Подключение и использование",
+                "zh": "连接并使用"
+              },
+              "buttons": [],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "Click the Connect button in the app to connect to VPN. If needed, select a different server from the server list.",
+                "fa": "برای اتصال به VPN روی دکمه اتصال در برنامه کلیک کنید. در صورت نیاز، سرور دیگری را از لیست سرورها انتخاب کنید.",
+                "fr": "Clique sur le bouton Connexion dans l'app pour te connecter au VPN. Si besoin, choisis un autre serveur dans la liste.",
+                "ru": "Нажмите кнопку Подключиться в приложении для подключения к VPN. При необходимости выберите другой сервер из списка серверов.",
+                "zh": "点击应用中的连接按钮以连接 VPN。如有需要，可从服务器列表中选择其他服务器。"
+              },
+              "svgIconColor": "teal"
+            }
+          ],
+          "featured": false,
+          "svgIconKey": "RabbitHole"
+        },
+        {
           "name": "Happ",
           "blocks": [
             {
