@@ -2762,8 +2762,8 @@
     "CloudDownload": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0\n          0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"\n          stroke-linejoin=\"round\"><path\n          stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M19 18a3.5 3.5 0 0\n          0 0 -7h-1a5 4.5 0 0 0 -11 -2a4.6 4.4 0 0 0 -2.1 8.4\" /><path d=\"M12 13l0\n          9\" /><path d=\"M9 19l3 3l3 -3\" /></svg>"
   },
   "baseSettings": {
-    "metaTitle": "Orion Subscription Page",
-    "metaDescription": "Orion Subscription Page",
+    "metaTitle": "FPN Sub",
+    "metaDescription": "Наш маленький секрет",
     "hideGetLinkButton": false,
     "showConnectionKeys": true
   },
