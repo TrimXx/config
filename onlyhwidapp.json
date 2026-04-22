@@ -2151,7 +2151,7 @@
               },
               "buttons": [
                 {
-                  "link": "https://github.com/legiz-ru/Prizrak-Box/releases/latest/download/windows-amd64.msi",
+                  "link": "https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha9/windows-amd64.msi",
                   "text": {
                     "en": "Windows (Setup)",
                     "fa": "ویندوز (نصب)",
